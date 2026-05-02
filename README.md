@@ -544,8 +544,8 @@ If you like the `Nuxt4-Starter-Kit`, please support me by granting a ⭐️ on t
 
 |            | Website                                       | Description                                            | Documentation                                                         |
 | ---------- | --------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------------- |
-| Nuxt 4     | [Nuxt 4](https://nuxt.com)                    | The Intuitive Web Framework                            | [Nuxt 3 Docs](https://nuxt.com/docs)                                  |
-| Vue        | [Vue](https://vuejs.org)                      | Next Generation Frontend Tooling                       | [Vue 3 Docs](https://v3.vuejs.org/)                                   |
+| Nuxt 4     | [Nuxt 4](https://nuxt.com)                    | The Intuitive Web Framework                            | [Nuxt 4 Docs](https://nuxt.com/docs)                                  |
+| Vue        | [Vue](https://vuejs.org)                      | Next Generation Frontend Tooling                       | [Vue Docs](https://vuejs.org/)                                        |
 | Vite       | [Vite](https://vitejs.dev/)                   | The Progressive JavaScript Framework                   | [Vite Docs](https://vitejs.dev/guide/)                                |
 | Pinia      | [Pinia](https://pinia.esm.dev/)               | The intuitive store for Vue.js                         | [Pinia Docs](https://pinia.esm.dev/)                                  |
 | Histoire   | [Histoire](https://histoire.dev/)             | A new way to write stories                             | [Histoire Docs](https://histoire.dev/guide/vue3/getting-started.html) |
