@@ -1,0 +1,11 @@
+// Global App Stylesheet | https://nuxt.com/docs/guide/directory-structure/assets
+
+/**
+ * Main SCSS entry point, imported globally across the entire app.
+ * Typically orchestrates partials via @use or @forward (variables, functions, mixins, resets, base styles).
+ * Common uses: global resets, base typography, design token imports, utility classes.
+ */
+
+@import '_normalize';
+@import '_variables';
+@import '_functions';

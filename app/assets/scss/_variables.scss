@@ -1,0 +1,9 @@
+// SCSS Variables File | https://sass-lang.com/documentation/variables
+
+/**
+ * Defines reusable SCSS variables (colors, spacing, typography, breakpoints, etc.) shared across the stylesheet architecture.
+ * Prefixed with _ (partial) so it's never compiled to CSS on its own — only via @use or @import.
+ * Common uses: design tokens, theming, maintaining consistency across the codebase.
+ */
+
+$base-font-size: 16px;

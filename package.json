@@ -1,0 +1,51 @@
+{
+  "name": "nuxt4-starter-kit",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev --dotenv .env.development",
+    "preview:staging": "nuxt preview --dotenv .env.staging",
+    "preview:production": "nuxt preview --dotenv .env.production",
+    "build:staging": "nuxi build --dotenv .env.staging",
+    "build:production": "nuxi build --dotenv .env.production",
+    "generate:staging": "nuxi generate --dotenv .env.staging",
+    "generate:production": "nuxi generate --dotenv .env.production",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "story": "histoire dev --dotenv .env.local",
+    "story:build": "histoire build --dotenv .env.production",
+    "story:preview": "histoire preview --dotenv .env.staging",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "coverage": "vitest run --coverage",
+    "postinstall": "nuxt prepare",
+    "cleanup": "nuxi clean"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^1.15.2",
+    "@nuxtjs/i18n": "^10.3.0",
+    "@pinia/nuxt": "^0.11.3",
+    "@vueuse/nuxt": "^14.3.0",
+    "eslint": "^10.3.0",
+    "nuxt": "^4.4.4",
+    "pinia": "^3.0.4",
+    "pinia-plugin-unstorage": "^1.0.0-beta.1",
+    "typescript": "^6.0.3",
+    "vue": "^3.5.33",
+    "vue-router": "^5.0.6"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^4.0.3",
+    "@types/node": "^25.6.0",
+    "@vitejs/plugin-vue": "^6.0.6",
+    "@vue/test-utils": "^2.4.10",
+    "happy-dom": "^20.9.0",
+    "playwright": "^1.59.1",
+    "playwright-core": "^1.59.1",
+    "prettier": "^3.8.3",
+    "sass-embedded": "^1.99.0",
+    "vitest": "^4.1.5"
+  }
+}

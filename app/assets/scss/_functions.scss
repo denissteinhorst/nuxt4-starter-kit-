@@ -1,0 +1,19 @@
+// SCSS Utility Functions | https://sass-lang.com/documentation/at-rules/function/
+
+/**
+ * Defines reusable SCSS functions available across the stylesheet architecture.
+ * Prefixed with _ (partial) so it's never compiled to CSS on its own — only via @use or @import.
+ * Common uses: unit conversion helpers, math utilities, string manipulation, color calculations.
+ */
+
+@use 'sass:math';
+
+// stripUnits(): removes the unit from a number (e.g. 16px → 16).
+@function stripUnits($number) {
+  @return math.div($number, ($number * 0 + 1));
+}
+
+// pxToRem(): converts a px value to rem relative to $base-font-size.
+@function pxToRem($px) {
+  @return math.div(stripUnits($px), stripUnits($base-font-size)) * 1rem;
+}
